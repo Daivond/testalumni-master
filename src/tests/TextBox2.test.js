@@ -25,7 +25,7 @@ describe('TextBox componente', () => {
 
         //comprobamos si el Box tiene un color de fondo blue
         expect(box).toHaveStyle({
-            Color: 'blue'
+            color: 'blue'
         });
     });
     
@@ -38,7 +38,7 @@ describe('TextBox componente', () => {
         //Ahora comprobamos que al pulsar en el botón se cambia
         //el color de fondo de la caja (Box) a pink.
         expect(box).toHaveStyle({
-            Color: 'pink'
+            color: 'pink'
         });
     });
 });
